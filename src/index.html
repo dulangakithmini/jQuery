@@ -21,6 +21,11 @@
         $('#about').hover(function () {
             $(this).css('background-color', 'lightblue');
         });
+
+        // Reset the color when the mouse leaves the div
+        $('#about').mouseleave(function () {
+            $(this).css('background-color', 'lightgreen');
+        });
     });
 </script>
 
