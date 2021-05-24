@@ -20,7 +20,11 @@
     // 14th line is equivalent to $(document).ready(function () {});
     $(function () {
         $('#about').click(function () {
-            $(this).html("You clicked me");
+            if ($(this).html() === 'You clicked me') {
+                $(this).html('Click me again');
+            } else {
+                $(this).html("You clicked me");
+            }
         });
 
         // Change the background color when hovering over the div
