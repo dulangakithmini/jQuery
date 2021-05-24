@@ -69,6 +69,15 @@
             });
         });
 
+        $('#getGame').click(function () {
+            $.ajax({
+                url: 'games.json', success: function (result) {
+                    var game = result.games[2].title;
+                    $('#about').html(game);
+                }
+            });
+        });
+
     });
 </script>
 
