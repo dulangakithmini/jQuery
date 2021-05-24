@@ -30,6 +30,21 @@
         $('#about').mouseleave(function () {
             $(this).css('background-color', 'lightgreen');
         });
+
+        // Show the div
+        $('#show').click(function () {
+            $('#about').show();
+        });
+
+        // Hide the div
+        $('#hide').click(function () {
+            $('#about').hide();
+        });
+
+        // Toggle the div
+        $('#toggle').click(function () {
+            $('#about').toggle();
+        });
     });
 </script>
 
