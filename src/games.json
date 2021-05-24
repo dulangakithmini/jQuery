@@ -1,0 +1,19 @@
+{
+  "games": [
+    {
+      "title": "Witcher 3",
+      "genre": "RPG",
+      "developer": "A"
+    },
+    {
+      "title": "Mass Effect 3",
+      "genre": "RPG",
+      "developer": "B"
+    },
+    {
+      "title": "Minecraft",
+      "genre": "Video game",
+      "developer": "C"
+    }
+  ]
+}
