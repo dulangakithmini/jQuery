@@ -47,6 +47,11 @@
         $('#toggle').click(function () {
             $('#about').toggle();
         });
+
+        // Change the text inside the div when writing in the textbox
+        $('.power').keyup(function () {
+            $('#about').html($(this).val());
+        });
     });
 </script>
 
