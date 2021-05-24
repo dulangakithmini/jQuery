@@ -69,6 +69,7 @@
             });
         });
 
+        //Make an ajax call to get the title of 3rd game of games.json
         $('#getGame').click(function () {
             $.ajax({
                 url: 'games.json', success: function (result) {
