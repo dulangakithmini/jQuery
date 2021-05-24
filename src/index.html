@@ -6,7 +6,18 @@
     <title>JQuery</title>
 </head>
 <body>
-    <div id="about"
-         style="height: 150px; width: 300px;background-color: lightgreen; text-align: center; padding: 10px"></div>
+<div id="about"
+     style="height: 150px; width: 300px;background-color: lightgreen; text-align: center; padding: 10px"></div>
+
+<script>
+    // To ensure that the document and all the html elements have been fully loaded
+    // 14th line is equivalent to $(document).ready(function () {});
+    $(function () {
+        $('#about').click(function () {
+            $(this).html("You clicked me");
+        });
+    });
+</script>
+
 </body>
 </html>
